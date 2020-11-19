@@ -31,7 +31,7 @@ Basta clicar no arquivo index.html
 Feito com ❤️ por Ricardo Santana 👋🏽 Entre em contato!
 
 * [linkedin.com/in/slopesricardo/](https://www.linkedin.com/in/slopesricardo/)
-* [slopes.ricardo@gmail.com](mailto: slopes.ricardo@gmail.com)
+* [slopes.ricardo@gmail.com](mailto:slopes.ricardo@gmail.com)
 
 ## :pencil2: Licença
 
