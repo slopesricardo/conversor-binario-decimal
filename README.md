@@ -13,7 +13,7 @@ para que o usuário digite um valor em base binária e seja convertido para base
 
 O projeto feito utlizando "Vanilla JS", ou seja, JavaScript puro.
 Utilizei também:
-* [BootStrap](https://getbootstrap.com/)
+* [Bootstrap](https://getbootstrap.com/)
 * [Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
  
 :grey_exclamation: Não utilizei os padrões e boas práticas, se trata apenas de um exercício. 
