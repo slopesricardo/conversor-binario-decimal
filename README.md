@@ -30,9 +30,7 @@ Basta clicar no arquivo index.html
 
 Feito com ❤️ por Ricardo Santana 👋🏽 Entre em contato!
 
-[! [ Linkedin! ] (assets/linkedin.svg)] (https://www.linkedin.com/in/slopesricardo/)
-
-
+![https://www.linkedin.com/in/slopesricardo/](assets/linkeding.svg)
 
 ## :pencil2: Licença
 
