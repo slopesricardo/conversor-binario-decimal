@@ -26,7 +26,7 @@ Utilizei também:
 
 Basta clicar no arquivo index.html
 
-## Autor :person_with_blond_hair:
+## Autor :man:
 
 Feito com ❤️ por Ricardo Santana 👋🏽 Entre em contato!
 
