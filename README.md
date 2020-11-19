@@ -28,6 +28,6 @@ Basta clicar no arquivo index.html
 
 ## :pencil2: Licença
 
-Este projeto esta sobe a licença MIT.
+Este projeto está sob a licença MIT.
 
 Feito com ❤️ por Ricardo Santana
