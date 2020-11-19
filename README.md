@@ -26,8 +26,15 @@ Utilizei também:
 
 Basta clicar no arquivo index.html
 
+## Autor
+
+Feito com ❤️ por Ricardo Santana 👋🏽 Entre em contato!
+
+[! [ Linkedin! ] (assets/linkedin.svb)] (https://www.linkedin.com/in/slopesricardo/)
+
+
+
 ## :pencil2: Licença
 
 Este projeto sob licença MIT.
 
-Feito com ❤️ por Ricardo Santana
