@@ -1,50 +1,51 @@
 const formulario = document.querySelector("form");
-const botao = document.querySelector("button");
+const btnConverter = document.querySelector("#converter");
 const erro = document.querySelector("span");
 
-limpar(formulario);
 
-
-botao.addEventListener('click', (e) => {
+btnConverter.addEventListener('click', (e) => {
     e.preventDefault();
     erro.textContent = "";
   
     const binarios = formulario.binario.value;
 
-    if (binarios === '') {
-        erro.textContent = "O campo binário não pode ser vazio!";
-        limpar(formulario);
-     
-    }
+    let campoVazio = false;
+    let valoresNaoPermitidos = false;
+
+    if (binarios === '') campoVazio = true;
 
     binarios.split('').map((char) => {
         if (char !== '0' && char !== '1') 
-        erro.textContent = "Você deve digitar apenas 0 e 1";
-        limpar(formulario);
-        return;
+        valoresNaoPermitidos = true;
     });
 
-    var decimal = 0;
+    if (campoVazio) {
+        erro.textContent = "O campo binário não pode ser vazio!";
+        formulario.decimal.value ='';
+    } else if (valoresNaoPermitidos) {
+        erro.textContent = "Você deve digitar apenas 0 e 1";
+        formulario.decimal.value ='';
+    } else {
+        var decimal = 0;
 
-    for (var i = 0; i < binarios.length; i++) {
-        let expoente = binarios.length - i - 1;
-        let valor = (Math.pow(2, expoente)) * binarios[i];
-        decimal = decimal + valor;
-       
+        for (var i = 0; i < binarios.length; i++) {
+            let expoente = binarios.length - i - 1;
+            let valor = (Math.pow(2, expoente)) * binarios[i];
+            decimal = decimal + valor;
+        
+        }
+ 
+        formulario.decimal.value = decimal;
     }
-    
-    formulario.decimal.value = decimal;
   
 });
 
 const btnLimpar = document.querySelector("#limpar");
 
-btnLimpar.ddEventListener('click', () => {
-    
-    limpar(formulario);
-});
-
-function limpar(formulario) {
+btnLimpar.addEventListener('click', (e) => {
+    e.preventDefault();
+    erro.textContent = '';
     formulario.binario.value = "";
     formulario.decimal.value = "";
-}
+});
+
